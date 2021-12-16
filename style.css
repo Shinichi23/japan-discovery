@@ -37,6 +37,11 @@ li {
 a {
   color: #e5e7eb;
   font-size: 18px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: greenyellow;
 }
 
 sub {
@@ -57,7 +62,7 @@ sub {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .hero {
@@ -74,7 +79,7 @@ sub {
   text-align: center;
 }
 
-button {
+#but {
   padding: 10px 20px;
   width: 130px;
   border-radius: 10px;
@@ -84,4 +89,110 @@ button {
   color: #f9faf8;
   font-size: 18px;
   font-weight: 900;
+}
+
+/* Part Two */
+
+.parttwo {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#info {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pictures {
+  border: 5px solid #1f2937;
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+/* Part Three */
+
+.quote {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 700px;
+}
+
+span {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+/* Part Four */
+
+.sign {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.signup {
+  display: flex;
+  gap: 300px;
+  flex-wrap: row;
+  background-color: #3882f6;
+  padding: 50px 150px;
+  border-radius: 10px;
+}
+
+#button {
+  border: 2px solid #f9faf8;
+  padding: 0 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+/* last */
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 24px;
 }
